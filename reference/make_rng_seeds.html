@@ -65,6 +65,9 @@
       <a href="https://future.callr.futureverse.org" class="external-link">future.callr</a>
     </li>
     <li>
+      <a href="https://future.mirai.futureverse.org" class="external-link">future.mirai</a>
+    </li>
+    <li>
       <a href="https://future.tests.futureverse.org" class="external-link">future.tests</a>
     </li>
     <li>
@@ -84,9 +87,6 @@
     </li>
     <li>
       <a href="https://future.tools.futureverse.org" class="external-link">future.tools (experimental)</a>
-    </li>
-    <li>
-      <a href="https://future.mirai.futureverse.org" class="external-link">future.mirai (experimental)</a>
     </li>
     <li>
       <a href="https://future.mapreduce.futureverse.org">future.mapreduce (experimental)</a>
@@ -178,105 +178,105 @@ for (ii in seq_len(count)) {
 <span class="r-in"><span><span class="va">seeds</span> <span class="op">&lt;-</span> <span class="fu">make_rng_seeds</span><span class="op">(</span><span class="fl">100L</span>, seed <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span></span>
 <span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/utils/str.html" class="external-link">str</a></span><span class="op">(</span><span class="va">seeds</span><span class="op">)</span></span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> List of 100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -1984344046 -549380931 1998255209 1680842345 989376983 253908062</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 833700595 -682062909 -1594754872 826698809 538678622 1944936697</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -1927835289 -1912972937 565511433 -1187351990 637137871 -1008269985</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1281245836 284024790 1809904175 80482471 -635848925 -526130074</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -402386684 -747868389 334779552 359759465 2018007345 -1378961289</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -1911892746 1174299147 1160798758 1578746845 -204489051 -1287775367</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -1780941558 1706992846 1417634179 1131299028 -207330843 1628806901</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 2045522340 808908796 1154545008 119991696 1196660033 1659716085</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1675143975 -1339147729 396743108 -1878970511 1459075747 -212533886</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 301512982 -1407123727 -675180226 -386609416 -138039314 66492691</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1875090049 -381077819 -595055331 -503599837 1210754693 281382893</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -1381974474 -1078145183 73407173 -998132601 1973179494 1700860948</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -777985054 130837 -1710782683 -162384015 -1632783007 320828781</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 397314132 1622094260 -1776848616 -561539183 57912894 -1924874364</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -749889739 -1698807754 -1123927029 1767540372 -1413592442 394588401</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -307686970 1917831310 374515009 -878866287 346561001 -1785560540</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -1336418360 -137501412 754049403 -1118710785 1739649364 467380754</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -865409711 -88792140 744472119 -259295183 -772833649 29871082</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 305300215 -276926159 1337046598 867853949 1452568239 1774150260</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 950387341 2128023839 -737281257 -290356809 1634065109 2069748661</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -1423305488 -691078578 -708229130 1541501232 1419748735 1051918477</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1533396523 18127583 1821016441 -1856848492 707058416 -1054433213</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1879895762 911084016 1030680695 -144217975 -12552224 -1558774941</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -2034222463 1576819687 -910688892 1944875003 2058252064 -587750130</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 931671127 -1089681266 239934934 668090832 -227861848 1208190958</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 876279732 37949795 -729461763 941486805 -619753284 -71935312</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1659372909 1617897892 643542433 362832649 -687598788 -871657395</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 365291332 2026206901 640062419 -536154640 -2058725911 1028846329</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -44861481 -124486546 -971095932 837229943 432910381 1495208246</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 289540275 -1425552313 -1692339890 -1100204852 -1547700094 1204128581</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -1056673650 -738754134 785223166 -1679927655 -1104188177 -820366204</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1063523540 -673922235 1617900440 1517811936 -1386833562 1793078864</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -349816247 1277897979 -521424234 1824977018 480247650 -1529647755</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 2013491023 843658878 798012355 -114359149 -2097285606 1965528767</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1928505347 -2056210152 1371324480 -938405210 1067578151 746310742</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -485983023 -2008595302 331640542 1349226592 -1556764324 -1635146568</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -1649398222 193635004 -1204281434 1122339782 1466555825 -1894960945</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -441818362 -561341213 -92992856 1247115457 -1864025352 968673751</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1792589608 -446621504 -878800349 594697505 -1732095796 -1028706387</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1310357023 555496272 -1574245881 1800823067 529930902 -943781462</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -238010607 1477866017 75162052 1265037680 -1775863900 2004410881</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -1536675476 -1414959336 -1760164643 -252230414 976132797 -635485033</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -345344032 799733744 -593132562 759932417 -264598238 -127278201</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -183766224 1928903452 2109260914 697980452 97285422 1202921717</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -262122607 1611972569 -435675795 1418369726 -1307337639 -600930418</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -2135360992 -1891546882 870509365 265882275 92216556 569929132</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1240406125 -929927328 376301928 -1468195083 -1033117398 462041656</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1002916771 954935673 -990490209 727621045 967005702 -6444972</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -547960387 -713230975 -1525635287 -1232630319 494033666 1107619145</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 679904560 571735390 2103952424 -908556250 1382510337 -346331171</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -1827098357 1085132676 14178332 -550509367 9793870 -1563465974</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 750850793 916490068 -1206857712 -722261570 -1721687356 -891417864</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -18776990 -1168009045 1889844137 104697031 -585835095 1824599392</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 446544166 -179991185 -1595891852 -1060916073 -1335673799 -1144911545</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -45673208 1638565552 928417164 622074125 -1620859329 -2101634604</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -849338533 -1931482212 763610526 828402031 -1168052013 1864620710</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1969880346 1703358242 -745201507 333847759 -1062274745 1128500584</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1098658225 -770371311 -722291759 1738057096 -1583682823 1888660733</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 114922613 394887179 -527414704 -764397604 -1349900805 1879014596</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 496714110 -841722593 -621255169 -664918374 -1075553496 -772026228</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 2013825091 -1760213805 1403892633 1024915242 -155901820 -1164944868</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1549583765 1602394765 1674117751 1764620191 -965612419 992169362</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -696165270 -1117367887 -149986246 831255216 -854993918 -1491614450</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -1807064940 -573847296 -387974936 -2104912307 1102864225 -270070598</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 2130631240 2017698345 1792504274 -1745832915 -1802040862 1676468993</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -700874107 818315367 1290060689 1506441078 259389066 1553889780</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -1656370204 654622164 -1503153040 -1867651964 96031833 525266288</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1171113384 369023769 1531549662 1011842962 -1974407595 -1950378349</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1032158546 562732962 -684777976 -66244836 111112522 -833219295</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -337842857 -1406312314 1011885745 -1118834905 185235382 -262370876</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -1900201225 -1937965001 861729186 -680355787 1877369739 -344288345</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -324564728 -53170412 -1467533385 689337566 -320450235 -1327574300</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 741442528 -1082532432 -748803474 1530729140 1222893842 -541057938</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -1534047204 254698993 1477815628 493044640 385904495 295827857</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -580895433 -1001063420 1081884028 -1745307378 -1227592239 624249803</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -282834549 -1317425818 -691058724 -401553017 739541189 517035352</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -120524055 -354341219 -845377042 589282313 609243616 378421891</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1422249914 -1518021106 903336131 -105814576 -1108657987 86109402</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -1669022140 1415760258 -604704231 -52327604 1394939410 1649359229</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -1812109784 85408932 -110719566 890616712 1182257556 687576947</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -37117628 -1202233093 358310381 2037099743 -801984351 345052837</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -1375701807 -745948666 1171141592 374255315 2012389722 706749798</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -383354484 -617213702 374697638 -1144843665 -2053567467 2002643361</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -842876112 856178143 781979370 121897117 703609831 -161148075</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -395339011 840671237 1193894844 236705356 267079782 1127047677</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 302569236 1955543504 1637736424 587937287 1450121489 291827919</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -328574627 -2065173496 407025154 2050605166 1899577585 -1466609270</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -409356367 434667690 -219331101 249330128 200794031 238400651</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 468774669 494902358 -216151128 -1955488235 -817235820 -1544443633</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -1607658163 848402341 -1881599430 930171164 1297161186 216055267</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -406319583 -1978199532 1302725356 -1113357926 1466257406 1132947766</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1421605537 729838691 1746007855 -720478827 1853405143 1037189371</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 401305492 1792007950 171306127 -246030578 -1699095992 -31540900</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 209756581 1529056668 903570026 -946331156 -492580740 1054755046</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 410711252 1990342210 1062949493 9516264 -143511706 571186784</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -874309960 -22534017 580627296 106605141 -21625155 -1198278172</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -1987022591 1909759784 -707517476 -948078847 -1763232851 274234054</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1808826601 1630145783 1978673118 1701208348 -982812548 -2084706136</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -1016012807 2043642510 963016639 -849860326 -330762315 609719741</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 234545791 1048599139 -339072230 -992253254 -1480979244 1838994959</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 551827518 2133301893 -1337210981 582399462 -1661384713 -2103704318</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1036129347 808703659 -953799616 941763477 -718791317 -598882218</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 378620982 98396066 -2072252476 892295134 -884469193 1959518326</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -1588841667 -626482507 494373867 1987717847 -933588808 -583602607</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1132159580 568985461 1319782804 1795407688 -1842902250 -259938337</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1401031947 -1720706560 1269781653 1692602988 -1726280605 1282569377</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1944887646 1422647442 1460150106 -1845361982 -1449205459 -1681059650</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1419326909 918107674 437550636 1243296584 -629409091 1228270398</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -1816477670 -839678041 1214345756 -1703228121 438904226 1620927098</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1478156671 -316602239 -572719100 1988160329 -1224673074 1300810463</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -2046817090 -804432212 -639102107 -372610377 -1976590086 -400191893</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 915775203 -1639460751 -601966584 49602481 1760893915 1102944160</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 821880433 1982078364 -1083878223 -1401468229 -1128531872 892554545</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1865828029 -98999360 118701295 181709652 383381588 -636599092</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -530633599 1274823765 -1510589255 -584472159 649825282 2002359635</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1288531975 -236093717 1010318440 -136533646 1734178154 -1123300945</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 261809853 546714845 1595771415 -765900938 166151040 390536785</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 2009366902 930030263 -1271716595 -1040802227 -740092487 501215297</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 255239851 -647727776 302471080 2109395831 -1974729075 2107404912</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -865038296 -1983949302 -908211989 89256100 -955851687 583294229</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 638695512 -722074240 -255476544 -122303467 1939622929 967299096</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1710697167 1475094201 1102029379 446252579 -790602959 350162107</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -2132514628 368192025 -1494950890 991554941 -1650571199 -1079750203</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -505655469 548976841 -1594328339 1778804224 279817333 373972575</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -246098402 496528543 -1277266773 32318347 1795317012 -1066595979</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -326843941 1235088457 518562651 -27273738 2005458633 1731054832</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1215623833 -296253987 292207769 2021327000 73129601 -853439562</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 20643305 -1893335955 -1947338433 -199314918 1165222612 430920645</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1034582425 -1669522023 -1817430340 -235886284 -2058714427 -508076143</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -1772669060 178044686 248401156 -1861527405 388202416 1018212115</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1232898189 -1283256373 612849954 487505662 -1685932225 494094271</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -1917780671 1545671768 132311637 -1097941859 502616942 2039867984</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -1191760471 1326509093 142571755 1817336328 -162895611 -1910212180</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -1435750260 21670052 -472085683 -126612012 -983506948 1521013659</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -1797540424 1915097732 1253327836 -326345774 1547625744 -1108226536</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1964891033 997199212 1083963293 1895064032 -119231319 -1331801127</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 990746983 -224630928 180003795 -1737956273 -1716465542 1935780683</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -1862603313 1642326364 654238718 1574308717 652383689 -1551443569</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -1697461110 -1523636445 1770773805 266498934 427956849 176458269</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -1080410898 1554819179 119414805 -1721970604 -509349536 -319141223</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -1007089588 1836827440 -1065380191 143421355 475977136 -1473526813</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -1917767803 1467059483 870953123 1445953314 333758707 1299470720</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1775261475 -503919539 -478706400 1516002022 984161885 -369779305</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 8415346 587698219 -1060289826 -1455168397 1221460907 1316848136</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -1884923946 -1007364651 1469724646 1636685710 -901214033 128413215</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -1010293164 -1641636478 746697437 664568744 -1807286124 1735137003</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -1986757587 1846064116 739257123 1007872485 -704186000 -1086345365</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 762964777 2012103712 452067769 -1745501556 -398487125 -740570257</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -677164487 -1362370124 248749866 -1999386215 -1946985123 -232451098</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1249751520 1899062433 794533842 1689345864 1016780008 1546543545</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 531650408 -1507307904 271382781 -1058013972 -1513513510 104147601</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1838425859 1946157141 -185168779 -1404340683 -297827055 1961973035</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -946450809 -435374458 737280580 -1732030630 -1159400116 -1045008430</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -1909994376 1438429565 -1552963991 -1118826573 1290260776 -27138387</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 853602797 374663442 -1828256565 -1884270847 -1496679317 -917914049</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -1670249467 -1930958212 2047285517 501050655 -578390264 -407905580</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -921692070 287580576 -2002484073 -709214114 -1880261561 306468840</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -632036846 1042108521 560316762 843416377 2045052135 -1312642473</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1009349595 1377945983 1276038087 295100032 528913652 -1680784712</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 847375963 60497883 140287060 69077658 -1714990986 1131847615</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1217547360 -1397058409 717885365 823868371 -1626673526 605462232</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 909297924 1513274854 -844201188 -956833107 -170673553 1889694257</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 898650960 -838979183 -81592775 -801337603 1519959092 -2078031541</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 428343416 -729605420 -226111949 -237535562 -1144819858 -737070043</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -564853181 -740777392 -192955629 1870313227 -964689697 151844601</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -511843847 1815977983 -1190539976 274345713 1660261969 1523191005</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1792855607 -432880496 375765864 656357205 495377715 -1128838164</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 155903967 1525390035 -1430807692 1015020059 598878107 1018951035</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -1463644323 1105856188 961958556 -155493338 519029579 -1656467966</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1469604262 -1781533514 490674969 350060880 1639443165 2056214009</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1276320216 1063256387 -1738245084 409255321 144315131 -2101968453</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 840314294 1087131290 -1542804697 2117566374 -1454051430 -332661378</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -366056652 -1662356379 1883244343 1377782200 -812682578 877132685</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1207309551 -1071969159 -144294318 209776950 -30089982 -711384483</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -1910248842 705672441 1287183104 -1168112099 -860181869 -542031695</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 676793750 759673866 1862529333 557812525 -1369017065 593156373</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 2146058124 1056769993 212484905 1593736996 -1452164794 -745632878</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1106045530 1794349204 -759877853 -642933106 -1110659231 347403807</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -850236067 1211067934 -2011513788 1006140514 447021224 -1595444017</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 399105717 133354940 -626653278 -1800652062 -759150453 135122196</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1776482936 702859884 781880111 1434191835 362061002 -696280691</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1396102605 -756169483 -1699902754 1838805070 1746297763 2024887455</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1202598385 -1473273085 -196952144 -1686665071 1537854713 -602882121</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1058593358 444178022 1060883287 -2005560621 433905043 1206061586</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -1142577336 -987291571 -1509915036 -1870243767 1342815929 -1442700195</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 839841272 -114007902 -131212069 1329752854 662038748 710674345</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -2057069630 -1996478787 442280596 898099034 1704395463 -2080372384</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 406887431 1703244408 -1113629504 -1539369961 15656474 -1013644707</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1438336410 -57769016 -1724996946 -832858789 1851173924 648590869</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 44255661 1455498604 1484464076 2090998748 -1774408463 -1051000514</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1098326746 222390827 -1288535823 -20032970 -1560780291 -1527781201</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -1146627121 -1043008332 -391394318 1571574987 -1617206559 735244133</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -243673664 198758634 -562481923 -1726170838 -1150975103 -966962855</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -1245580422 1511616179 370844499 -758398415 -788302004 345932837</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 132718596 -269077609 1186284256 -700281112 902947186 151611073</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 1641337425 989830271 -194847441 -1701587219 -2126246301 -1818757471</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -843707549 -14017078 1452350250 -1957127294 210044167 1589752201</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ : int [1:7] 10407 -400331869 -1003398303 -1363717432 -784442753 1085585152 1246507132</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>   [list output truncated]</span>
 </code></pre></div>
     </div>
