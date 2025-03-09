@@ -9,7 +9,7 @@
 #' as.
 #'
 #' @param args (optional) A list of arguments passed to `fun`, either via
-#' a named argument (`args_name`), or via \dots.
+#' a named argument (`args_name`), or via \ldots.
 #'
 #' @param args_name If `"..."`, then the arguments in `args` are passed
 #' to `fun()` as individual arguments.  If a string, then `args` as

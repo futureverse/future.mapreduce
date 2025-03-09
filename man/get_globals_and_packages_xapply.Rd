@@ -22,7 +22,7 @@ arguments.}
 as.}
 
 \item{args}{(optional) A list of arguments passed to \code{fun}, either via
-a named argument (\code{args_name}), or via \dots.}
+a named argument (\code{args_name}), or via \ldots.}
 
 \item{args_name}{If \code{"..."}, then the arguments in \code{args} are passed
 to \code{fun()} as individual arguments.  If a string, then \code{args} as
