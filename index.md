@@ -49,6 +49,7 @@ R package future.mapreduce is only available via
 installed in R as:
 
 ``` r
+
 remotes::install_github("HenrikBengtsson/future.mapreduce", ref="master")
 ```
 
@@ -58,6 +59,7 @@ To install the pre-release version that is available in Git branch
 `develop` on GitHub, use:
 
 ``` r
+
 remotes::install_github("HenrikBengtsson/future.mapreduce", ref="develop")
 ```
 
