@@ -40,8 +40,7 @@ get_globals_and_packages_xapply(
 
 - globals:
 
-  (optional) a logical, a character vector, a named list, or a
-  [Globals](https://globals.futureverse.org/reference/Globals.html)
+  (optional) a logical, a character vector, a named list, or a Globals
   object. If TRUE, globals are identified by code inspection based on
   `expr` and `tweak` searching from environment `envir`. If FALSE, no
   globals are used. If a character vector, then globals are identified
